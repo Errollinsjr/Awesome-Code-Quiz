@@ -10,6 +10,6 @@ Repository URL: https://github.com/Errollinsjr/Awesome-Code-Quiz
 
 ## Screenshot
 
-The following image shows the web application's initial appearance:
+Website's image:
 
 ![Web Screenshot](./assets/Quiz.png)

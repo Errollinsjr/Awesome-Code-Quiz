@@ -77,7 +77,7 @@ function answerCheck(btnId) {
 
 //  lose seconds when answer is wrong
 function wrongAnswer() {
-    timeLeft = (timeLeft - 15)
+    timeLeft = (timeLeft - 10)
     feedback.innerHTML = ("Wrong");
     setTimeout(function() {feedback.innerHTML = ("");}, 800)
 }
