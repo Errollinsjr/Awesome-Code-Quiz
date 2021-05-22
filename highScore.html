@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title id="pageTitle">Highscores</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-2"></div>
+			<div class="content col-8 higher">
+				<h1 class="highscores">HighScores</h1>
+				<table class="table table-striped">
+					<tbody id="tableBody">
+						<tr class="scores"></tr>
+					</tbody>
+				</table>
+				<div class="row">
+					<button type="button" onclick="window.location='index.html';" id="homeBtn" class="btn btn-danger">Back</button>
+					<button type="button" onclick="clearStorage();" href="highScore.html" id="clearBtn" class="btn btn-danger">Clear</button>
+				</div>
+			</div>
+			<div class="col-2"></div>
+		</div>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+	<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
